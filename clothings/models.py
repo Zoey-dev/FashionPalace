@@ -10,3 +10,6 @@ class Clothing(models.Model):
 
     def __str__(self):
         return self.summary
+
+class Testing(models.Model):
+    user = models.CharField(max_length=200)
