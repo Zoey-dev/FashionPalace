@@ -13,3 +13,5 @@ def detail(request, clothing_id):
     clothing_detail = get_object_or_404(Clothing, pk=clothing_id)
 
     return render(request, 'clothings/detail.html', {'clothing': clothing_detail})
+
+    
